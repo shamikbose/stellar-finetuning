@@ -10,4 +10,5 @@ packages:
 
 **Visualization**:
 - tqdm
+- ipywidgets
 - matplotlib/plotly/seaborn
