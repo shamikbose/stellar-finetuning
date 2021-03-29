@@ -61,6 +61,8 @@ In PyTorch, every layer comes with a set of parameters. One of these parameters 
 
 ![image](https://user-images.githubusercontent.com/50837285/112853583-fffb4800-907a-11eb-8127-b9ff1be3bf25.png)
 
+As we can see, the number of trainable parameters in the model has been halved from earlier, thanks to 5 of its 12 encoder layers being frozen. 
+
 ## Results
 
 The following results were achieved with the following dataset and settings:
@@ -70,7 +72,4 @@ The following results were achieved with the following dataset and settings:
 **batch_size**: 256
 
 ![image](https://user-images.githubusercontent.com/50837285/112876793-edd9d380-9093-11eb-8a0e-e79823541989.png)
-
-
-As we can see, the number of trainable parameters in the model has been halved from earlier, thanks to 5 of its 12 encoder layers being frozen. 
 
