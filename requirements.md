@@ -12,3 +12,4 @@ packages:
 - tqdm
 - ipywidgets
 - matplotlib/plotly/seaborn
+- torchinfo
